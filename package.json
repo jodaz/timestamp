@@ -1,0 +1,33 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "timestamp microservice for freeCodeCamp",
+  "main": "app.js",
+  "scripts": {
+    "start": "browser-sync start --server --files 'app.js'",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesuodz/timestamp.git"
+  },
+  "keywords": [
+    "timestamp",
+    "microservice",
+    "freeCodeCamp",
+    "javascript"
+  ],
+  "author": "Jesus Ordosgoitty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesuodz/timestamp/issues"
+  },
+  "homepage": "https://github.com/jesuodz/timestamp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.6"
+  }
+}
