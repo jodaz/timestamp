@@ -7,6 +7,7 @@ const routes = require('./routes/index.js');
 app.use(express.static('public'));
 
 // Handle routes
+app.use('/timestamp/api/', routes);
 app.use('/', routes);
 
 // Create and start the server
