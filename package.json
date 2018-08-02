@@ -4,7 +4,7 @@
   "description": "timestamp microservice for freeCodeCamp",
   "main": "app.js",
   "scripts": {
-    "start": "browser-sync start --server --files 'app.js'",
+    "start": "nodemon app.js",
     "test": "mocha"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "express": "^4.16.3"
   },
   "devDependencies": {
-    "browser-sync": "^2.24.6"
+    "browser-sync": "^2.24.6",
+    "nodemon": "^1.18.3"
   }
 }
