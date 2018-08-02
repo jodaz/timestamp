@@ -10,10 +10,4 @@ router.get('/', (request, response) => {
     response.sendFile('index.html', { root: './views/' });
 });
 
-// router.get('*', (request, response) => {
-//     response.send('404 - not found');
-// });
-
-// Error!
-
 module.exports = router;

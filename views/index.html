@@ -5,13 +5,35 @@
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width;initial-scale=1.0">
+        <link rel="icon" type="image/png" size="16x16" href="favicon/favicon-16x16.png">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
-        <h1>Timestamp microservice</h1>
-        <h2>Example usage</h2>
-        <a href="/timestamp/api/2018-08-02">[project-url]/timestamp/api/2018-08-02</a>
-        <a href="/timestamp/api/1533168000000">[project-url]/timestamp/api/1533168000000</a>
+        <section class="container">
+            <h1>Timestamp microservice</h1>
+            <h2>Example usage</h2>
+            <ul>
+                <li>
+                    <a href="/api/timestamp/2018-08-02">jesuodz-timestamp.glitch.me/api/timestamp/2018-08-02</a>
+                </li>
+                <li>
+                    <a href="/api/timestamp/1533227498">jesuodz-timestamp.glitch.me/api/timestamp/1533227498</a>
+                </li>
+                <li>
+                    <a href="/api/timestamp/">jesuodz-timestamp.glitch.me/api/timestamp/</a>
+                </li>
+            </ul>
+            <h2>Output</h2>
+            <div class="output-example">
+                <code>
+                    {"unix":1533168000,"utc":"Thu, 02 Aug 2018 00:00:00 GMT"}
+                    <br>
+                    {"unix":1533227498,"utc":"Thu, 02 Aug 2018 16:31:38 GMT"}
+                    <br>
+                    {"unix":1533240424,"utc":"Thu, 02 Aug 2018 20:07:04 GMT"}
+                </code>
+            </div>
+        </section>
     </body>
 </html>
