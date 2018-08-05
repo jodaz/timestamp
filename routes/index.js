@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const timestamp = require('../api/timestamp.js');
+const timestamp = require('../service/timestamp.js');
 
 // Handle routes
 router.route('/api/timestamp/').get(timestamp.parser);
