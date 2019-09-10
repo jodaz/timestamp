@@ -12,8 +12,8 @@ e.g. {"unix": 1479663089000 ,"utc": "Sun, 20 Nov 2016 17:31:29 GMT"}
 `{"error" : "Invalid Date" }`.
 
 ## Live demo
-[Glitch demo](https://jesuodz-timestamp.glitch.me/)
-[Medium post](https://medium.com/@jesuodz/building-a-timestamp-microservice-71a1645f09d9)
+- [Glitch demo](https://jesuodz-timestamp.glitch.me/)
+- [Medium post](https://medium.com/@jesuodz/building-a-timestamp-microservice-71a1645f09d9)
 
 ## Installation
 Clone this repo, then install with `npm install` and start the server with `npm start`.
